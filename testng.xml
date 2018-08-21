@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test1">
+  <parameter name="browser" value="firefox" />
+  
+    <classes>  	
+      <class name="com.testng.demo.Register"/> 
+    </classes>
+  </test>
+  
+  <test name="Test2">
+  <parameter name="browser" value="chrome" />
+    <classes>  	
+      <class name="com.testng.demo.Register"/>  
+    </classes>
+  </test> 
+</suite> 
+
+
+
+
+<!-- <suite name="Parallel test suite" parallel="tests" thread-count="2">
+  <test name="Test 1" >
+    <classes>
+      <class name="com.testng.demo.Register"/>
+    </classes>
+  </test>
+  <test name="Test 2" >
+    <classes>
+      <class name="com.selenium.demo.Register"/>
+    </classes>
+  </test>
+  
+</suite> -->
